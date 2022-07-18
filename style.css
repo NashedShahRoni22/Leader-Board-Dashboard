@@ -140,6 +140,12 @@ hr{
     padding: 5px;
     border-radius: 34px;
 }
+footer{
+    background-color: #562EFF;
+    text-align: center;
+    color: white;
+    padding: 48px 0;   
+}
 
 /* Media Querie  */
 
@@ -167,6 +173,7 @@ hr{
         justify-content: center;
     }
 }
+
 @media only screen and (min-width:578px) and (max-width:992px)  {
     .top-section, .latest-course{
         width: 100%;
