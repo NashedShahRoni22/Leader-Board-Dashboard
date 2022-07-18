@@ -11,6 +11,37 @@ body{
     color: #562EFF;
     font-weight: 500;
 }
+header{
+    background-color: #562EFF;
+    color: #F3F1FF;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.right-side ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.logo img{
+    width: 40px;
+    height: 50px;
+}
+.logo-name p{
+    font-size: 24px;
+}
+.user img{
+    height: 51px;
+    width: 51px;
+}
+
 hr{
     border: 1px solid #D1D1D1;
     width: 100%;
@@ -101,7 +132,7 @@ hr{
 }
 .course-ratings .empty{
     color: #A2A2A2;
-    font-size: 14px
+    font-size: 15px
 }
 .course-time{
     color: #FF4A60;
